@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    >
+
+    <TextView
+        android:id="@+id/textViewa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Админ"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:fontFamily="@font/lobster"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/ic_add"
+        android:text="Добавить студент"
+        android:textStyle="bold"
+        android:onClick="open"
+        android:textSize="16sp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnAddTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить учитель"
+        android:drawableLeft="@drawable/ic_add"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:onClick="open"
+        />
+    <Button
+        android:id="@+id/btnAddSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить предмет"
+        android:drawableLeft="@drawable/ic_add"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:onClick="open"
+        />
+    <Button
+        android:id="@+id/btnAddTimeTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить расписание"
+        android:drawableLeft="@drawable/ic_add"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:onClick="open"
+        />
+    <Button
+        android:id="@+id/btnShowListStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Список студентов"
+        android:drawableLeft="@drawable/ic_add"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:onClick="open"
+        />
+    <Button
+        android:id="@+id/btnShowListTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Список учителов"
+        android:drawableLeft="@drawable/ic_add"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:onClick="open"
+        />
+
+</LinearLayout>
